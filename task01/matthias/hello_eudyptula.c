@@ -3,6 +3,8 @@
  *
  *  A simple "hello world" module for task01.
  *
+ *  See http://www.tldp.org/LDP/lkmpg/2.6/html/lkmpg.html#HELLO2
+ *
  */
 
 #include <linux/module.h>       /* Needed by all modules */
