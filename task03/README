@@ -6,7 +6,7 @@ it!
 
 The tasks for this round is:
   - take the kernel git tree from Task 02 and modify the Makefile to
-    and modify the EXTRAVERSION field.  Do this in a way that the
+    modify the EXTRAVERSION field.  Do this in a way that the
     running kernel (after modifying the Makefile, rebuilding, and
     rebooting) has the characters "-eudyptula" in the version string.
   - show proof of booting this kernel.  Extra cookies for you by
@@ -24,4 +24,3 @@ to.
 If you forgot, your id is "7c1caf2f50d1".  Surely I don't need to keep
 saying this right?  I know, _you_ wouldn't forget, but someone else, of
 course they would, so I'll just leave it here for those "others".
-
