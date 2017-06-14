@@ -1,0 +1,30 @@
+From c95ec6533c066d99c92af355c91450c80aed9c14 Mon Sep 17 00:00:00 2001
+From: Matthias Schmitz <matthias@sigxcpu.org>
+Date: Mon, 12 Jun 2017 14:35:52 +0200
+Subject: [PATCH] Set EXTRAVERSION to "-eudyptula" according to task 03
+
+The third task of the eudyptula challenge demands a change of
+the EXTRAVERSION in the Makefile to have always "-eudyptula"
+in the version string of the kernel.
+
+Signed-off-by: Matthias Schmitz <matthias@sigxcpu.org>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 83f6d9972cab..64e000eb5e3b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ VERSION = 4
+ PATCHLEVEL = 12
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -eudyptula
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
+-- 
+2.11.0
+
